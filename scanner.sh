@@ -26,8 +26,7 @@ addresses=()
 
 # Generate addresses based on type
 if [ "$TYPE" == "ipv4" ]; then
-  echo "Generating random IPv4 addresses...
-https://t.me/No1API7"
+  echo "Generating random IPv4 addresses..."
   for i in $(seq 1 10); do
     addresses+=("$(generate_ipv4)")
   done
